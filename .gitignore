@@ -1,0 +1,29 @@
+﻿# Python virtual environments
+venv/
+__pycache__/
+
+# Python artifacts
+*.pyc
+*.pyo
+*.pyd
+
+# Environment / config files
+.env
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# Data directories (too large for GitHub)
+sec-edgar-filings/
+clean_data/
+vector_db/
+graph_output/
+
+# Generated charts
+*.svg
+*.png
+
+# Results / data files
+*.csv
+*.json
