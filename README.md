@@ -1,5 +1,5 @@
 # Hybrid RAG for Financial Document Analysis
-
+# see https://deepwiki.com/AadilUsmani/V.G.RAG for in-depth analysis 
 ## 1. Project Summary
 
 This repository implements and evaluates a **Hybrid Retrieval-Augmented Generation** system that fuses semantic vector search (ChromaDB) with a structured knowledge graph (Neo4j) to answer questions over SEC 10-K filings for Apple (AAPL) and Tesla (TSLA). The system performs parallel retrieval from both datastores, merges their contexts via late fusion, and synthesises a final answer through an LLM. A 53-question evaluation benchmark with LLM-as-a-judge grading and paired statistical tests is included to quantify the claim that hybrid retrieval yields comparable or improved answer quality relative to either retriever used in isolation.
